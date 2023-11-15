@@ -1,0 +1,4 @@
+Create a '.env' file under the root with your actual API Key
+
+WINDY_API_KEY=abc123
+CWA_API_KEY=abc123

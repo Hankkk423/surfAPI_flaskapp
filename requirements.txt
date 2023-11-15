@@ -1,0 +1,9 @@
+### For Flask App ###
+flask
+flask_cors
+
+
+### For Windy API and CWA API ###
+requests
+datetime
+python-dotenv
