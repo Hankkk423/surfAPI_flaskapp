@@ -1,0 +1,13 @@
+{
+    "Locations": [
+        {
+            "LocationEnName": "海水浴場頭城",
+            "LocationMdName": "Tho Chan",
+            "LocationCode": "E886003",
+            "Latitude": 24.8523,
+            "Longitude": 121.8283,
+            "cwa_tide_LocationId": "A00100"
+        }
+    ]
+
+}
