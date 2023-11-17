@@ -1,0 +1,1410 @@
+{
+    "success": "true",
+    "result": {
+        "resource_id": "F-A0021-001",
+        "fields": [
+            {
+                "id": "LocationName",
+                "type": "String"
+            },
+            {
+                "id": "LocationId",
+                "type": "String"
+            },
+            {
+                "id": "Latitude",
+                "type": "Double"
+            },
+            {
+                "id": "Longitude",
+                "type": "Double"
+            },
+            {
+                "id": "Date",
+                "type": "Date"
+            },
+            {
+                "id": "LunarDate",
+                "type": "Date"
+            },
+            {
+                "id": "TideRange",
+                "type": "String"
+            },
+            {
+                "id": "DateTime",
+                "type": "DateTime"
+            },
+            {
+                "id": "AboveTWVD",
+                "type": "String"
+            },
+            {
+                "id": "AboveLocalMSL",
+                "type": "Integer"
+            },
+            {
+                "id": "AboveChartDatum",
+                "type": "Integer"
+            }
+        ]
+    },
+    "records": {
+        "dataid": "F-A0021-001",
+        "note": "潮汐預報(未來1個月潮汐預報，鄉鎮、大潮小潮、滿潮乾潮、時間、潮高)",
+        "TideForecasts": [
+            {
+                "Location": {
+                    "LocationId": "A00100",
+                    "LocationName": "海水浴場頭城",
+                    "Latitude": 24.8523,
+                    "Longitude": 121.8283,
+                    "TimePeriods": {
+                        "Daily": [
+                            {
+                                "Date": "2023-11-17",
+                                "LunarDate": "2023-10-05",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-17T02:46:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-82",
+                                            "AboveLocalMSL": -97,
+                                            "AboveChartDatum": 20
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-17T09:45:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "40",
+                                            "AboveLocalMSL": 24,
+                                            "AboveChartDatum": 142
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-17T14:25:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "4",
+                                            "AboveLocalMSL": -10,
+                                            "AboveChartDatum": 106
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-17T20:08:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "68",
+                                            "AboveLocalMSL": 52,
+                                            "AboveChartDatum": 170
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-18",
+                                "LunarDate": "2023-10-06",
+                                "TideRange": "M",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-18T03:37:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-77",
+                                            "AboveLocalMSL": -91,
+                                            "AboveChartDatum": 25
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-18T10:49:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "34",
+                                            "AboveLocalMSL": 18,
+                                            "AboveChartDatum": 136
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-18T15:17:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "9",
+                                            "AboveLocalMSL": -6,
+                                            "AboveChartDatum": 111
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-18T20:57:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "59",
+                                            "AboveLocalMSL": 44,
+                                            "AboveChartDatum": 162
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-19",
+                                "LunarDate": "2023-10-07",
+                                "TideRange": "M",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-19T04:37:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-69",
+                                            "AboveLocalMSL": -83,
+                                            "AboveChartDatum": 34
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-19T12:03:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "32",
+                                            "AboveLocalMSL": 16,
+                                            "AboveChartDatum": 134
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-19T16:37:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "11",
+                                            "AboveLocalMSL": -3,
+                                            "AboveChartDatum": 114
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-19T22:05:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "49",
+                                            "AboveLocalMSL": 33,
+                                            "AboveChartDatum": 151
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-20",
+                                "LunarDate": "2023-10-08",
+                                "TideRange": "S",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-20T05:47:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-60",
+                                            "AboveLocalMSL": -75,
+                                            "AboveChartDatum": 42
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-20T13:17:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "33",
+                                            "AboveLocalMSL": 18,
+                                            "AboveChartDatum": 136
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-20T18:20:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "7",
+                                            "AboveLocalMSL": -8,
+                                            "AboveChartDatum": 109
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-20T23:37:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "40",
+                                            "AboveLocalMSL": 24,
+                                            "AboveChartDatum": 142
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-21",
+                                "LunarDate": "2023-10-09",
+                                "TideRange": "S",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-21T07:02:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-54",
+                                            "AboveLocalMSL": -68,
+                                            "AboveChartDatum": 49
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-21T14:16:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "39",
+                                            "AboveLocalMSL": 23,
+                                            "AboveChartDatum": 141
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-21T19:54:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-5",
+                                            "AboveLocalMSL": -20,
+                                            "AboveChartDatum": 97
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-22",
+                                "LunarDate": "2023-10-10",
+                                "TideRange": "S",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-22T01:15:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "36",
+                                            "AboveLocalMSL": 20,
+                                            "AboveChartDatum": 138
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-22T08:11:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-48",
+                                            "AboveLocalMSL": -63,
+                                            "AboveChartDatum": 54
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-22T14:59:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "46",
+                                            "AboveLocalMSL": 30,
+                                            "AboveChartDatum": 148
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-22T21:04:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-23",
+                                            "AboveLocalMSL": -38,
+                                            "AboveChartDatum": 79
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-23",
+                                "LunarDate": "2023-10-11",
+                                "TideRange": "S",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-23T02:45:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "38",
+                                            "AboveLocalMSL": 22,
+                                            "AboveChartDatum": 140
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-23T09:10:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-42",
+                                            "AboveLocalMSL": -57,
+                                            "AboveChartDatum": 60
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-23T15:35:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "53",
+                                            "AboveLocalMSL": 37,
+                                            "AboveChartDatum": 155
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-23T21:58:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-43",
+                                            "AboveLocalMSL": -57,
+                                            "AboveChartDatum": 60
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-24",
+                                "LunarDate": "2023-10-12",
+                                "TideRange": "M",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-24T04:00:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "43",
+                                            "AboveLocalMSL": 27,
+                                            "AboveChartDatum": 145
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-24T10:00:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-36",
+                                            "AboveLocalMSL": -50,
+                                            "AboveChartDatum": 67
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-24T16:08:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "60",
+                                            "AboveLocalMSL": 45,
+                                            "AboveChartDatum": 162
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-24T22:45:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-61",
+                                            "AboveLocalMSL": -76,
+                                            "AboveChartDatum": 42
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-25",
+                                "LunarDate": "2023-10-13",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-25T05:02:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "47",
+                                            "AboveLocalMSL": 32,
+                                            "AboveChartDatum": 150
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-25T10:44:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-28",
+                                            "AboveLocalMSL": -43,
+                                            "AboveChartDatum": 74
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-25T16:41:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "67",
+                                            "AboveLocalMSL": 51,
+                                            "AboveChartDatum": 169
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-25T23:28:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-76",
+                                            "AboveLocalMSL": -91,
+                                            "AboveChartDatum": 26
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-26",
+                                "LunarDate": "2023-10-14",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-26T05:56:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "50",
+                                            "AboveLocalMSL": 34,
+                                            "AboveChartDatum": 152
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-26T11:24:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-20",
+                                            "AboveLocalMSL": -35,
+                                            "AboveChartDatum": 82
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-26T17:13:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "71",
+                                            "AboveLocalMSL": 56,
+                                            "AboveChartDatum": 173
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-27",
+                                "LunarDate": "2023-10-15",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-27T00:09:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-87",
+                                            "AboveLocalMSL": -101,
+                                            "AboveChartDatum": 16
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-27T06:46:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "49",
+                                            "AboveLocalMSL": 34,
+                                            "AboveChartDatum": 152
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-27T12:01:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-13",
+                                            "AboveLocalMSL": -27,
+                                            "AboveChartDatum": 89
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-27T17:46:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "74",
+                                            "AboveLocalMSL": 58,
+                                            "AboveChartDatum": 176
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-28",
+                                "LunarDate": "2023-10-16",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-28T00:50:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-92",
+                                            "AboveLocalMSL": -107,
+                                            "AboveChartDatum": 10
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-28T07:33:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "46",
+                                            "AboveLocalMSL": 31,
+                                            "AboveChartDatum": 148
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-28T12:36:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-7",
+                                            "AboveLocalMSL": -22,
+                                            "AboveChartDatum": 95
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-28T18:20:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "73",
+                                            "AboveLocalMSL": 58,
+                                            "AboveChartDatum": 175
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-29",
+                                "LunarDate": "2023-10-17",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-29T01:30:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-92",
+                                            "AboveLocalMSL": -107,
+                                            "AboveChartDatum": 10
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-29T08:18:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "41",
+                                            "AboveLocalMSL": 26,
+                                            "AboveChartDatum": 144
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-29T13:09:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-3",
+                                            "AboveLocalMSL": -17,
+                                            "AboveChartDatum": 99
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-29T18:55:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "70",
+                                            "AboveLocalMSL": 54,
+                                            "AboveChartDatum": 172
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-11-30",
+                                "LunarDate": "2023-10-18",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-11-30T02:10:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-89",
+                                            "AboveLocalMSL": -103,
+                                            "AboveChartDatum": 13
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-30T09:03:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "36",
+                                            "AboveLocalMSL": 20,
+                                            "AboveChartDatum": 138
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-30T13:43:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "1",
+                                            "AboveLocalMSL": -14,
+                                            "AboveChartDatum": 103
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-11-30T19:30:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "64",
+                                            "AboveLocalMSL": 48,
+                                            "AboveChartDatum": 166
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-01",
+                                "LunarDate": "2023-10-19",
+                                "TideRange": "M",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-01T02:50:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-82",
+                                            "AboveLocalMSL": -96,
+                                            "AboveChartDatum": 20
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-01T09:49:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "30",
+                                            "AboveLocalMSL": 14,
+                                            "AboveChartDatum": 132
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-01T14:18:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "3",
+                                            "AboveLocalMSL": -11,
+                                            "AboveChartDatum": 105
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-01T20:07:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "56",
+                                            "AboveLocalMSL": 41,
+                                            "AboveChartDatum": 158
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-02",
+                                "LunarDate": "2023-10-20",
+                                "TideRange": "M",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-02T03:31:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-73",
+                                            "AboveLocalMSL": -88,
+                                            "AboveChartDatum": 29
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-02T10:37:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "25",
+                                            "AboveLocalMSL": 10,
+                                            "AboveChartDatum": 128
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-02T15:01:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "6",
+                                            "AboveLocalMSL": -9,
+                                            "AboveChartDatum": 108
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-02T20:47:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "46",
+                                            "AboveLocalMSL": 31,
+                                            "AboveChartDatum": 149
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-03",
+                                "LunarDate": "2023-10-21",
+                                "TideRange": "S",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-03T04:15:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-63",
+                                            "AboveLocalMSL": -78,
+                                            "AboveChartDatum": 39
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-03T11:31:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "22",
+                                            "AboveLocalMSL": 7,
+                                            "AboveChartDatum": 125
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-03T16:00:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "7",
+                                            "AboveLocalMSL": -7,
+                                            "AboveChartDatum": 110
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-03T21:33:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "36",
+                                            "AboveLocalMSL": 20,
+                                            "AboveChartDatum": 138
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-04",
+                                "LunarDate": "2023-10-22",
+                                "TideRange": "S",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-04T05:04:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-54",
+                                            "AboveLocalMSL": -68,
+                                            "AboveChartDatum": 48
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-04T12:30:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "22",
+                                            "AboveLocalMSL": 6,
+                                            "AboveChartDatum": 124
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-04T17:27:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "7",
+                                            "AboveLocalMSL": -8,
+                                            "AboveChartDatum": 109
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-04T22:37:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "26",
+                                            "AboveLocalMSL": 10,
+                                            "AboveChartDatum": 128
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-05",
+                                "LunarDate": "2023-10-23",
+                                "TideRange": "S",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-05T05:57:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-44",
+                                            "AboveLocalMSL": -59,
+                                            "AboveChartDatum": 58
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-05T13:26:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "23",
+                                            "AboveLocalMSL": 8,
+                                            "AboveChartDatum": 126
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-05T19:06:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "1",
+                                            "AboveLocalMSL": -13,
+                                            "AboveChartDatum": 104
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-06",
+                                "LunarDate": "2023-10-24",
+                                "TideRange": "S",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-06T00:02:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "17",
+                                            "AboveLocalMSL": 2,
+                                            "AboveChartDatum": 120
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-06T06:55:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-36",
+                                            "AboveLocalMSL": -51,
+                                            "AboveChartDatum": 66
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-06T14:10:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "27",
+                                            "AboveLocalMSL": 12,
+                                            "AboveChartDatum": 129
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-06T20:33:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-9",
+                                            "AboveLocalMSL": -24,
+                                            "AboveChartDatum": 93
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-07",
+                                "LunarDate": "2023-10-25",
+                                "TideRange": "S",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-07T01:38:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "14",
+                                            "AboveLocalMSL": 0,
+                                            "AboveChartDatum": 116
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-07T07:53:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-30",
+                                            "AboveLocalMSL": -44,
+                                            "AboveChartDatum": 72
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-07T14:43:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "33",
+                                            "AboveLocalMSL": 17,
+                                            "AboveChartDatum": 135
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-07T21:27:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-23",
+                                            "AboveLocalMSL": -37,
+                                            "AboveChartDatum": 80
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-08",
+                                "LunarDate": "2023-10-26",
+                                "TideRange": "S",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-08T03:06:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "17",
+                                            "AboveLocalMSL": 1,
+                                            "AboveChartDatum": 119
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-08T08:46:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-24",
+                                            "AboveLocalMSL": -39,
+                                            "AboveChartDatum": 78
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-08T15:12:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "39",
+                                            "AboveLocalMSL": 24,
+                                            "AboveChartDatum": 142
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-08T22:07:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-37",
+                                            "AboveLocalMSL": -52,
+                                            "AboveChartDatum": 65
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-09",
+                                "LunarDate": "2023-10-27",
+                                "TideRange": "S",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-09T04:15:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "23",
+                                            "AboveLocalMSL": 7,
+                                            "AboveChartDatum": 125
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-09T09:34:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-20",
+                                            "AboveLocalMSL": -34,
+                                            "AboveChartDatum": 83
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-09T15:41:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "47",
+                                            "AboveLocalMSL": 31,
+                                            "AboveChartDatum": 149
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-09T22:42:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-52",
+                                            "AboveLocalMSL": -67,
+                                            "AboveChartDatum": 50
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-10",
+                                "LunarDate": "2023-10-28",
+                                "TideRange": "M",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-10T05:08:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "30",
+                                            "AboveLocalMSL": 15,
+                                            "AboveChartDatum": 132
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-10T10:18:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-16",
+                                            "AboveLocalMSL": -30,
+                                            "AboveChartDatum": 86
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-10T16:12:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "54",
+                                            "AboveLocalMSL": 39,
+                                            "AboveChartDatum": 157
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-10T23:17:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-67",
+                                            "AboveLocalMSL": -81,
+                                            "AboveChartDatum": 36
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-11",
+                                "LunarDate": "2023-10-29",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-11T05:54:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "37",
+                                            "AboveLocalMSL": 21,
+                                            "AboveChartDatum": 139
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-11T11:00:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-12",
+                                            "AboveLocalMSL": -27,
+                                            "AboveChartDatum": 90
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-11T16:44:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "62",
+                                            "AboveLocalMSL": 46,
+                                            "AboveChartDatum": 164
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-11T23:54:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-80",
+                                            "AboveLocalMSL": -94,
+                                            "AboveChartDatum": 23
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-12",
+                                "LunarDate": "2023-10-30",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-12T06:38:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "42",
+                                            "AboveLocalMSL": 26,
+                                            "AboveChartDatum": 144
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-12T11:39:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-10",
+                                            "AboveLocalMSL": -24,
+                                            "AboveChartDatum": 93
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-12T17:20:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "68",
+                                            "AboveLocalMSL": 53,
+                                            "AboveChartDatum": 170
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-13",
+                                "LunarDate": "2023-11-01",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-13T00:33:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-90",
+                                            "AboveLocalMSL": -105,
+                                            "AboveChartDatum": 12
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-13T07:22:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "44",
+                                            "AboveLocalMSL": 29,
+                                            "AboveChartDatum": 146
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-13T12:19:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-7",
+                                            "AboveLocalMSL": -22,
+                                            "AboveChartDatum": 95
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-13T17:58:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "73",
+                                            "AboveLocalMSL": 58,
+                                            "AboveChartDatum": 175
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-14",
+                                "LunarDate": "2023-11-02",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-14T01:14:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-97",
+                                            "AboveLocalMSL": -112,
+                                            "AboveChartDatum": 5
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-14T08:07:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "44",
+                                            "AboveLocalMSL": 28,
+                                            "AboveChartDatum": 146
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-14T12:58:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-6",
+                                            "AboveLocalMSL": -20,
+                                            "AboveChartDatum": 97
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-14T18:39:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "75",
+                                            "AboveLocalMSL": 60,
+                                            "AboveChartDatum": 178
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-15",
+                                "LunarDate": "2023-11-03",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-15T01:58:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-99",
+                                            "AboveLocalMSL": -114,
+                                            "AboveChartDatum": 3
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-15T08:54:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "42",
+                                            "AboveLocalMSL": 26,
+                                            "AboveChartDatum": 144
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-15T13:41:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-5",
+                                            "AboveLocalMSL": -19,
+                                            "AboveChartDatum": 98
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-15T19:24:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "74",
+                                            "AboveLocalMSL": 59,
+                                            "AboveChartDatum": 176
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-16",
+                                "LunarDate": "2023-11-04",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-16T02:44:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-97",
+                                            "AboveLocalMSL": -111,
+                                            "AboveChartDatum": 5
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-16T09:42:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "39",
+                                            "AboveLocalMSL": 23,
+                                            "AboveChartDatum": 141
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-16T14:29:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-4",
+                                            "AboveLocalMSL": -19,
+                                            "AboveChartDatum": 98
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-16T20:13:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "69",
+                                            "AboveLocalMSL": 53,
+                                            "AboveChartDatum": 171
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-17",
+                                "LunarDate": "2023-11-05",
+                                "TideRange": "L",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-17T03:33:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-90",
+                                            "AboveLocalMSL": -104,
+                                            "AboveChartDatum": 12
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-17T10:32:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "36",
+                                            "AboveLocalMSL": 21,
+                                            "AboveChartDatum": 139
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-17T15:28:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-5",
+                                            "AboveLocalMSL": -20,
+                                            "AboveChartDatum": 97
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-17T21:08:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "59",
+                                            "AboveLocalMSL": 44,
+                                            "AboveChartDatum": 162
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Date": "2023-12-18",
+                                "LunarDate": "2023-11-06",
+                                "TideRange": "M",
+                                "Time": [
+                                    {
+                                        "DateTime": "2023-12-18T04:24:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-79",
+                                            "AboveLocalMSL": -94,
+                                            "AboveChartDatum": 23
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-18T11:23:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "35",
+                                            "AboveLocalMSL": 19,
+                                            "AboveChartDatum": 137
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-18T16:38:00+08:00",
+                                        "Tide": "L",
+                                        "TideHeights": {
+                                            "AboveTWVD": "-8",
+                                            "AboveLocalMSL": -23,
+                                            "AboveChartDatum": 94
+                                        }
+                                    },
+                                    {
+                                        "DateTime": "2023-12-18T22:12:00+08:00",
+                                        "Tide": "H",
+                                        "TideHeights": {
+                                            "AboveTWVD": "47",
+                                            "AboveLocalMSL": 31,
+                                            "AboveChartDatum": 150
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
